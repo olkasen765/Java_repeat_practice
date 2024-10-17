@@ -1,28 +1,25 @@
-import java.util.Scanner;
 
 class Main {
-
     public static void main(String[] args) {
-        // Create a Scanner object to read input
-        Scanner sc = new Scanner(System.in);
 
-        // Read the integer
-        int age = sc.nextInt();
+        int Bubblegum = 202;
+        int Toffee = 118;
+        int Ice_cream = 2250;
+        int Milk_chocolate = 1680;
+        int Doughnut = 1075;
+        int Pancake = 80;
 
-        // Write your code here to determine the life stage based on the input age
-        // You should use if...else if...else statement
-        // Then, print out the appropriate message
+        double Income = Bubblegum + Toffee + Ice_cream + Milk_chocolate + Doughnut + Pancake;
 
-        if (age < 13) {
-            System.out.println("Child");
-        } else if (age > 12 && age < 18) {
-            System.out.println("Teenager");
-        } else if (age > 17 && age < 60) {
-            System.out.println("Adult");
-        } else {
-            System.out.println("Citizen");
-        }
+        System.out.println("Earned amount:");
+        System.out.println("Bubblegum: $" + Bubblegum);
+        System.out.println("Toffee: $" + Toffee);
+        System.out.println("Ice cream: $" + Ice_cream);
+        System.out.println("Milk chocolate: $" + Milk_chocolate);
+        System.out.println("Doughnut: $" + Doughnut);
+        System.out.println("Pancake: $" + Pancake);
+        System.out.println("\nIncome: $" + Income);
 
-        sc.close();
+
     }
 }
