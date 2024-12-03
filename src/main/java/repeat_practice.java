@@ -8,8 +8,9 @@ class Main {
         int Milk_chocolate = 1680;
         int Doughnut = 1075;
         int Pancake = 80;
+        int Coffee = 800;
 
-        double Income = Bubblegum + Toffee + Ice_cream + Milk_chocolate + Doughnut + Pancake;
+        double Income = Bubblegum + Toffee + Ice_cream + Milk_chocolate + Doughnut + Pancake + Coffee;
 
         System.out.println("Earned amount:");
         System.out.println("Bubblegum: $" + Bubblegum);
@@ -18,7 +19,9 @@ class Main {
         System.out.println("Milk chocolate: $" + Milk_chocolate);
         System.out.println("Doughnut: $" + Doughnut);
         System.out.println("Pancake: $" + Pancake);
+        System.out.println("Coffee: $" + Coffee);
         System.out.println("\nIncome: $" + Income);
+        System.out.printf("Average per item: $" + "%.1f%n", Income/7);
 
 
     }
