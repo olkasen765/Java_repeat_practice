@@ -27,19 +27,21 @@ class Main {
         String hello = "Hello, world. How are you?";
         System.out.println(hello);
 
-        Scanner scan = new Scanner(System.in);
+        System.out.println(Coffee*2);
 
-        System.out.println("Please enter your full name: ");
-        String fullName = scan.nextLine();
-
-        System.out.println("Please enter your address: ");
-        String address = scan.nextLine();
-        System.out.println();
-
-        System.out.println("Full name: " + fullName);
-        System.out.println("Address: " + address);
-
-
-        scan.close();
+//        Scanner scan = new Scanner(System.in);
+//
+//        System.out.println("Please enter your full name: ");
+//        String fullName = scan.nextLine();
+//
+//        System.out.println("Please enter your address: ");
+//        String address = scan.nextLine();
+//        System.out.println();
+//
+//        System.out.println("Full name: " + fullName);
+//        System.out.println("Address: " + address);
+//
+//
+//        scan.close();
     }
 }
